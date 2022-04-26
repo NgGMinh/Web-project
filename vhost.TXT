@@ -9,7 +9,7 @@
 </VirtualHost>
 
 <VirtualHost *:80>	
-    DocumentRoot "C:/xampp/apps/ct275/public" 
+    DocumentRoot "C:/xampp/apps/ct275-doan/public" 
     ServerName ct275-doan.localhost
     # Set access permission 
     <Directory "C:/xampp/apps/ct275/public"> 
