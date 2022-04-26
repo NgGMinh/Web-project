@@ -1,0 +1,182 @@
+/* -----------------------------Body--------------------------- */
+
+
+/* -----------------------------Image-------------------------- */
+.slider-img{
+    height: 175px;
+}
+
+.slider-img-left{
+    height: 123px;
+}
+
+.image-top-product {
+    height    : 225px;
+}
+
+.object-fit-cover{
+    object-fit: cover;
+}
+
+.object-fit-contain{
+    object-fit: contain;
+}
+
+/* ------------------------------Hover------------------------------- */
+.hover-btn:hover, .active-btn {
+    background-color: #589be7;
+    border-radius   : 6px;
+}
+
+.hover-product, .image-top-product {
+    transition: all 500ms;
+}
+
+.hover-product:hover .image-top-product{
+    transform: translateY(-5px);
+    border-radius: 6px ;
+}
+.hover-product .text-price-new{
+    color: black;
+}
+
+.a-product:hover{
+    text-decoration: none;
+}
+
+/*-------------------------------Product----------------------------*/
+.text-list{
+    font-size: 1rem;
+}
+
+.a-product {
+    color: black;
+}
+
+.div-discount{
+    color: red;
+}
+
+.text-name-product {
+    font-size: 1rem;
+    line-height: 12px;
+    font-weight: 500;
+}
+
+.text-price-old {
+    text-decoration: line-through;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+.text-price-new {
+    font-size    : 1rem;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+.text-price-new::after, .text-price-old::after{
+    content: " đ";
+}
+.bg-change{
+    background-color: #007bff;
+}
+.padding-change{
+    padding: 8px 0;
+}
+
+
+/*-------------------------------Footer-----------------------------*/
+.link-terms-policies {
+    color: white;
+}
+
+.link-terms-policies:hover {
+    color      : blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+.text-footer{
+    font-size: 0.6rem;
+}
+
+
+/* ------------------------------Basic----------------------------- */
+.textarea-border {
+    border: 1px solid rgb(201, 197, 197);
+}
+.responsive-height{
+    height: auto;
+}
+.text-error{
+    color: red;
+}
+.text-checkbox{
+    font-size: 0.88rem;
+    padding-top: 1px;
+}
+.checkbox-responsive{
+    height: 11.5px;
+    width: 11.5px;    
+}
+/* ------------------------------Base - END----------------------------- */
+
+
+/*-------------------------------Responsive - START------------------------------*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .slider-img{
+        height: 250px;
+    }
+    .text-footer{
+        font-size: 0.6rem;
+    }
+    .text-checkbox{
+        font-size: 1rem;
+    }
+    .checkbox-responsive{
+        width: 12px;
+        height: 12px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .slider-img{
+        height: 250px;
+    }
+    .responsive-height{
+        height: 580px;
+    }
+    .bg-change{
+        background-color: #fff;
+    }
+    .padding-change{
+        padding: 0 6px ;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .slider-img{
+        height: 340px;
+    }
+    .slider-img-left{
+        height: 168px;
+    }
+    .text-footer{
+        font-size: 0.8rem;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .slider-img{
+        height: 400px;
+    }
+    .slider-img-left{
+        height: 198px;
+    }
+}
+/*-------------------------------Responsive - END-------------------------------*/
+

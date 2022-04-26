@@ -1,0 +1,40 @@
+.text-check-out {
+    font-size: 0.7rem;
+}
+.text-check-out-tittle{
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+.order-input{
+    height: 22px;
+}
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {
+    .text-check-out {
+        font-size: 0.85rem;
+    }
+    .order-input{
+        height: 30px;
+    }
+    .text-check-out-tittle{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 992px) {
+    .text-check-out {
+        font-size: 1rem;
+    }
+    .order-input{
+        height: 36px;
+    }
+    .text-check-out-tittle{
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1200px) {
+
+}

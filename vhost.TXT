@@ -1,0 +1,19 @@
+<VirtualHost *:80>	
+    DocumentRoot "C:/xampp/htdocs" 
+    ServerName localhost
+    # Set access permission 
+    <Directory "C:/xampp/htdocs"> 
+        AllowOverride None
+        Require all granted
+    </Directory>
+</VirtualHost>
+
+<VirtualHost *:80>	
+    DocumentRoot "C:/xampp/apps/ct275/public" 
+    ServerName ct275-doan.localhost
+    # Set access permission 
+    <Directory "C:/xampp/apps/ct275/public"> 
+        AllowOverride None
+        Require all granted
+    </Directory>
+</VirtualHost>
