@@ -12,7 +12,7 @@
     DocumentRoot "C:/xampp/apps/ct275-doan/public" 
     ServerName ct275-doan.localhost
     # Set access permission 
-    <Directory "C:/xampp/apps/ct275/public"> 
+    <Directory "C:/xampp/apps/ct275-doan/public"> 
         AllowOverride None
         Require all granted
     </Directory>
