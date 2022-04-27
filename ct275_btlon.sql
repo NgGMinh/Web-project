@@ -188,7 +188,7 @@ CREATE TABLE `khachhang` (
 INSERT INTO `khachhang` (`IDKH`, `HoTenKH`, `Email`, `MatKhau`, `SDT`, `DiaChi`) VALUES
 (1, 'Nguyễn Trung Kiên', 'kienb1809361@student.ctu.edu.vn', '123456789', '0853475317', '298E4/4 Nguyễn Văn Linh, An Khánh, Ninh Kiều, Cần Thơ'),
 (2, 'Nguyễn Gia Minh', 'minhb1809372@student.ctu.edu.vn', '123456789', '0765962393', 'Hẻm Liên tổ 5-6 ,An Khánh, Ninh Kiều, Cần Thơ'),
-(6, 'Minh Kiên', 'MinhKien@gmail.com', 'VktP9PHe', '098909988219', 'L3-30 Phan Thị Rằng, An Hòa, Rạch Giá,Kiên Giang');
+(6, 'Minh Kiên', 'MinhKien@gmail.com', '123456', '098909988219', 'L3-30 Phan Thị Rằng, An Hòa, Rạch Giá,Kiên Giang');
 
 -- --------------------------------------------------------
 
